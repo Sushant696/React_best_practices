@@ -1,10 +1,11 @@
 import "./App.css";
+import UsememoHook from "./bestPractices/hooks/usememo";
 
 function App() {
-
+const myarray = [1,5,2,77,13,623,33,649,36,625,13]
   return (
     <>
-      <h1>React js best practices</h1>
+    <UsememoHook InData={myarray}/>
     </>
   );
 }
