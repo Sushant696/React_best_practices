@@ -7,7 +7,6 @@ export default function UseStateHook() {
 
   const handleIncrement = useCallback(() => setCount((prevCount) => prevCount + 1), []);
   const handleDecrement = useCallback(() => setCount((prevCount) => prevCount - 1), []);
-
   return (
     <>
       <h1>Number increment program</h1>
